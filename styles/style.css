@@ -59,3 +59,28 @@
     cursor: pointer;
     min-width: 54px;
 }
+
+#top_guide {
+    position: absolute;
+    left: 0;
+    top: 16px;
+    height: 0;
+    width: 100%;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+#top_left_links {
+    display: inline-block;
+    position: relative;
+    margin: 7px 0 0 10px;
+    width: 99px;
+    height: 16px;
+}
+
+#top_left_links a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
