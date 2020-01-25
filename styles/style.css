@@ -32,3 +32,30 @@
     height: 34px;
     font: 16px arial,sans-serif;
 }
+
+#search_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    padding-top: 18px;
+    margin: 0 auto;
+    width: 487px;
+    height: 70px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+    font: 14px arial,sans-serif;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 54px;
+}
